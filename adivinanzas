@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Farm Machine Riddles</title>
+<style>
+body{
+font-family: Arial, sans-serif;
+background:#e8f5e9;
+text-align:center;
+padding:30px;
+}
+
+h1{
+color:#2e7d32;
+}
+
+.riddle{
+background:white;
+border-radius:10px;
+padding:20px;
+margin:15px auto;
+max-width:500px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+button{
+background:#4caf50;
+color:white;
+border:none;
+padding:10px 15px;
+border-radius:5px;
+cursor:pointer;
+margin-top:10px;
+}
+
+.answer{
+display:none;
+font-weight:bold;
+color:#1b5e20;
+margin-top:10px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>🚜 Farm Machinery Riddles</h1>
+<p>Read the riddle and click to see the answer!</p>
+
+<div class="riddle">
+<p>I am big and strong. I have big wheels. Farmers drive me in the field. What am I?</p>
+<button onclick="showAnswer(1)">Show Answer</button>
+<p class="answer" id="a1">Tractor</p>
+</div>
+
+<div class="riddle">
+<p>I cut wheat and corn. I collect the grain. I work in big fields. What am I?</p>
+<button onclick="showAnswer(2)">Show Answer</button>
+<p class="answer" id="a2">Combine Harvester</p>
+</div>
+
+<div class="riddle">
+<p>I plant small seeds in the soil. I work with a tractor. Plants grow in lines. What am I?</p>
+<button onclick="showAnswer(3)">Show Answer</button>
+<p class="answer" id="a3">Seed Planter</p>
+</div>
+
+<div class="riddle">
+<p>I spray water or chemicals on plants. I help crops stay healthy. What am I?</p>
+<button onclick="showAnswer(4)">Show Answer</button>
+<p class="answer" id="a4">Sprayer</p>
+</div>
+
+<div class="riddle">
+<p>I dig and turn the soil before planting. A tractor pulls me. What am I?</p>
+<button onclick="showAnswer(5)">Show Answer</button>
+<p class="answer" id="a5">Plow</p>
+</div>
+
+<div class="riddle">
+<p>I cut grass to make food for cows. Farmers use me in the field. What am I?</p>
+<button onclick="showAnswer(6)">Show Answer</button>
+<p class="answer" id="a6">Mower</p>
+</div>
+
+<div class="riddle">
+<p>I make round or square hay blocks for animals. What am I?</p>
+<button onclick="showAnswer(7)">Show Answer</button>
+<p class="answer" id="a7">Baler</p>
+</div>
+
+<div class="riddle">
+<p>A tractor pulls me. I carry crops or tools around the farm. What am I?</p>
+<button onclick="showAnswer(8)">Show Answer</button>
+<p class="answer" id="a8">Trailer</p>
+</div>
+
+<div class="riddle">
+<p>I lift heavy things like hay or soil. I have two arms in front. What am I?</p>
+<button onclick="showAnswer(9)">Show Answer</button>
+<p class="answer" id="a9">Front Loader</p>
+</div>
+
+<div class="riddle">
+<p>I break the soil into small pieces after plowing. What am I?</p>
+<button onclick="showAnswer(10)">Show Answer</button>
+<p class="answer" id="a10">Harrow</p>
+</div>
+
+<div class="riddle">
+<p>I give water to plants in big circles in the field. What am I?</p>
+<button onclick="showAnswer(11)">Show Answer</button>
+<p class="answer" id="a11">Irrigation Machine</p>
+</div>
+
+<div class="riddle">
+<p>I collect cotton from plants in big fields. What am I?</p>
+<button onclick="showAnswer(12)">Show Answer</button>
+<p class="answer" id="a12">Cotton Harvester</p>
+</div>
+
+<script>
+function showAnswer(num){
+document.getElementById("a"+num).style.display="block";
+}
+</script>
+
+</body>
+</html>
